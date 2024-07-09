@@ -60,6 +60,12 @@ const config = {
         debug: false // Set debug to true if you want to inspect the modal
 
       },
+      announcementBar: {
+        id: 'support_us_' + Date.now(),
+        content:
+          '<span>Webinar</span> We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+        isCloseable: true,
+      },
       navbar: {
         title: 'Clarifai Guide',
         logo: {
